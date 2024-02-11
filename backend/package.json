@@ -1,0 +1,14 @@
+{
+    "name": "smartshop_pro",
+    "version": "1.0.0",
+    "description": "Backend for automated shopping system",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+      
+    }
+  }
+  
