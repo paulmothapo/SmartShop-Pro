@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartShop Pro</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div id="app">
-        <h1>Welcome to SmartShop Pro</h1>
-        <!-- <p>Scan products below:</p>
-        <input type="file" accept="image/*" capture="environment" id="file-input">
-        <img src="" id="product-image" alt="Product Image">
-        <button id="scan-button">Scan Product</button>
-        <p id="product-info">Product Information:</p> -->
+<body class="">
+    <div id="app" class="md:max-w-lg md:mx-auto py-8 mx-20 md:mx-0 ">
+        <h1 class="text-4xl font-bold mb-4 text-center">SmartShop Pro</h1>
+        <p class="text-lg mb-6 text-center">Shop your next product.</p>
+        <input type="file" accept="image/*" capture="environment" id="file-input" class="w-full border rounded-md px-4 py-2 mb-4">
+        <button id="scan-button" class="w-full bg-green-500 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-green-600 focus:outline-none focus:ring focus:ring-green-400">Scan Product</button>
+        <p id="product-info" class="text-lg mt-4 text-center font-semibold"></p>
     </div>
     <script src="script.js"></script>
 </body>
